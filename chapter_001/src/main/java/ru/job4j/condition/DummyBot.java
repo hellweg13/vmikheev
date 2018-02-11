@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 /**
- * @author Petr Arsentev (parsentev@yandex.ru)
+ * @author Vladimir Mikheev (hellweg69@gmail.com)
  * @version $Id$
  * @since 0.1
  */
