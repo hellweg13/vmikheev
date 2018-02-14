@@ -27,9 +27,7 @@ public double area() {
     return rsl;
 }
 private boolean exist(double ab, double ac, double bc) {
-   if (ab!=ac && ab!=bc && ac!=bc)
-	    return true;
-   else
+	    if (ab==0 || ac==0 || bc==0);
        return false;
     }
 }
