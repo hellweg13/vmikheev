@@ -15,8 +15,8 @@ public class MaxTest {
 	@Test
 	public void whenFirstLargeSecond() {
 		Max maxim = new Max();
-		int result = maxim.max(4,2,3);
-		assertThat(result,is(4));
+		int result = maxim.max(4,2,6);
+		assertThat(result,is(6));
 	}
 	@Test
 	public void whenFirstEqualySecond() {
