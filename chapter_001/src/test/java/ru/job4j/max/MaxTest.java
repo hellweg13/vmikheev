@@ -9,19 +9,19 @@ public class MaxTest {
 	@Test
 	public void whenFirstLessSecond() {
 		Max maxim = new Max();
-		int result = maxim.max(1,2);
-		assertThat(result,is(2));
+		int result = maxim.max(1,2,4);
+		assertThat(result,is(4));
 	}
 	@Test
 	public void whenFirstLargeSecond() {
 		Max maxim = new Max();
-		int result = maxim.max(4,2);
+		int result = maxim.max(4,2,3);
 		assertThat(result,is(4));
 	}
 	@Test
 	public void whenFirstEqualySecond() {
 		Max maxim = new Max();
-		int result = maxim.max(3,3);
+		int result = maxim.max(3,3,3);
 		assertThat(result,is(3));
 	}
 }
