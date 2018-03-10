@@ -9,7 +9,7 @@ public class SquareTest {
     public void whenCalculateSquareForFiveThenTwentyFive(){
         Square square = new Square();
         int[] result = square.calculate(5);
-        int[] excepted = new int[]{0, 1, 4, 9, 16};
+        int[] excepted = new int[]{1, 4, 9, 16, 25};
         assertThat(result,is(excepted));
     }
 }
