@@ -12,7 +12,10 @@ public class ArraysChar {
         boolean result = true;
         char[] value = prefix.toCharArray();
         for (int i = 0; i < prefix.length(); i++) {
-                if (data[i]!=value[i]) result = false;
+                if (data[i]!=value[i]) {
+                    result = false;
+                    break;
+                }
         }
         return result;
     }
